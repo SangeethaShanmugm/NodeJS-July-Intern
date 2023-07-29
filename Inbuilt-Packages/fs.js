@@ -1,5 +1,5 @@
 // callback  => passing a function inside an another function
-const { clear } = require("console");
+
 const fs = require("fs");
 
 const quote = "No beauty shines than that of a good heart 🥳🥳🥳";
