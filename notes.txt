@@ -19,3 +19,11 @@ https://git-scm.com/downloads => download gitbash
 
 Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
 Set your email address: git config --global user.email "MY_NAME@example.com"
+
+
+Json-server error
+-------------------
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+
+json-server --watch db.json --port 8900
