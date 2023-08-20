@@ -8,7 +8,10 @@ app.set("view engine", "ejs");
 app.set("views", "./views");
 
 app.get("/", (req, res) => {
-  res.render("index");
+  res.render("index", {
+    error: req.query.valid ? req.query.valid : "",
+    msg: req.query.msg ? req.query.msg : "",
+  });
 });
 
 app.get("/signup", (req, res) => {
